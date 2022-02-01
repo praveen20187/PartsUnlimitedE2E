@@ -8,8 +8,10 @@ namespace PartsUnlimited.Models
 {
 	public interface ILineItem
 	{
+		//2nd change
 		int Count { get; }
 
 		Product Product { get; }
+		//3rd change
 	}
 }
